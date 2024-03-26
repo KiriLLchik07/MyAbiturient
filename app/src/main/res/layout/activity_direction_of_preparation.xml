@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DirectionOfPreparation">
+
+    <TextView
+        android:id="@+id/InterestingFaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/basic"
+        android:text="Выберите интересующий факультет"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/MachineEngineering"
+        android:backgroundTint="#201E28"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Машиностроительный институт"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InterestingFaculty" />
+
+    <Button
+        android:id="@+id/Petrochemical"
+        android:backgroundTint="#201E28"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Нефтехимический институт"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MachineEngineering" />
+
+    <Button
+        android:id="@+id/Energy"
+        android:layout_width="270dp"
+        android:backgroundTint="#201E28"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Энергетический институт"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Petrochemical" />
+
+    <Button
+        android:id="@+id/fitacs"
+        android:layout_width="270dp"
+        android:backgroundTint="#201E28"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Факультет информационных технологий и компьютерных систем"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Energy" />
+
+    <Button
+        android:id="@+id/RadioEngineering"
+        android:backgroundTint="#201E28"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Радиотехнический факультет"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fitacs" />
+
+    <Button
+        android:id="@+id/TransportOilGas"
+        android:backgroundTint="#201E28"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Факультет транспорта, нефти и газа"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RadioEngineering" />
+
+    <Button
+        android:id="@+id/Humanities"
+        android:backgroundTint="#201E28"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Факультет гуманитарного образования"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TransportOilGas" />
+
+    <Button
+        android:id="@+id/ArtAndTechnology"
+        android:backgroundTint="#201E28"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Художественно-технологический факультет"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Humanities" />
+
+    <Button
+        android:id="@+id/fesu"
+        android:backgroundTint="#201E28"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Факультет экономики, сервиса и управления"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ArtAndTechnology" />
+</androidx.constraintlayout.widget.ConstraintLayout>
